@@ -36,7 +36,7 @@ from qiskit.quantum_info import Operator, Statevector
 random.seed(39)
 np.random.seed(39)
 
-DATA_DIR = Path("/Users/4c/Desktop/GHQ/data")
+DATA_DIR = Path("/data")
 
 WINDOWS = (1, 2, 3)
 MAX_EPOCHS = 80
@@ -1047,7 +1047,7 @@ Cela istorija 20 NLL 22.274895143416458
 Cela istorija 40 NLL 20.858866865051063
 Cela istorija 60 NLL 19.7816162961079
 Cela istorija 80 NLL 18.890982167879574
-NEXT: 5 9 22 29 34 38 39
+NEXT: 5 x 22 y 34 z 39
 Log-verovatnoca unutar modela: -10.816422190698994
 
 CSV: loto7_4714_k88_loto_2979.csv redova: 2979
@@ -1074,7 +1074,7 @@ Cela istorija 20 NLL 22.131053204952046
 Cela istorija 40 NLL 19.742417396724903
 Cela istorija 60 NLL 18.86590952178325
 Cela istorija 80 NLL 18.038770290997995
-NEXT: 7 10 11 21 22 29 34
+NEXT: 7 x 11 y 22 z 34
 Log-verovatnoca unutar modela: -11.24979301905754
 
 CSV: loto7_4714_k88_loto_plus_1735.csv redova: 1735
@@ -1099,7 +1099,7 @@ Hronoloski test NLL: 18.682797211497025
 Cela istorija 20 NLL 21.099316643073706
 Cela istorija 40 NLL 19.682478777300453
 Cela istorija 60 NLL 18.239319504237024
-NEXT: 1 2 12 16 17 21 22
+NEXT: 1 x 12 y 17 z 22
 Log-verovatnoca unutar modela: -10.036984127909221
 ZAVRSEN RAD NAD SVA TRI CSV-a.
 """
